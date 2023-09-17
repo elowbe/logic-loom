@@ -1,0 +1,6 @@
+script,,(-229.0,-291.0),,[118, 97, 114, 51, 32, 61, 32, 118, 97, 114, 49, 32, 38, 38, 32, 118, 97, 114, 50, 59],,false,,-var1,-var2,var3,,,false
+expose_input,,(-645.0,-354.0),,a,,[102, 97, 108, 115, 101],,Boolean,,0,,0,,[]
+expose_input,,(-645.0,41.0),,b,,[102, 97, 108, 115, 101],,Boolean,,0,,0,,[]
+expose_output,,(395.0,-62.0),,result,,false,,Boolean
+connections:0:var1>1:terminal0,0:var2>2:terminal0,3:terminal0>0:var3,
+.port=80

@@ -1,0 +1,9 @@
+script,,(-145.0,-291.0),,[105, 102, 40, 118, 97, 114, 49, 41, 123, 10, 32, 32, 32, 32, 118, 97, 114, 51, 32, 61, 32, 118, 97, 114, 52, 59, 10, 125, 101, 108, 115, 101, 123, 10, 32, 32, 32, 32, 118, 97, 114, 51, 32, 61, 32, 34, 34, 59, 10, 125],,false,,-var1,var3,-var4,,,false
+expose_input,,(-687.0,-229.0),,condition,,[102, 97, 108, 115, 101],,Boolean,,0,,0,,[]
+expose_output,,(708.0,-20.0),,output,,false,,Any
+expose_input,,(-708.0,145.0),,input,,[68, 101, 102, 97, 117, 108, 116],,Any,,0,,0,,[]
+expose_output,,(708.0,291.0),,else,,false,,Boolean
+filter,,(-145.0,270.0),,not.loom,,false,,{"a":"[102, 97, 108, 115, 101]"},,false
+probe,,(750.0,666.0),,false
+connections:0:var1>1:terminal0,0:var4>3:terminal0,2:terminal0>0:var3,4:terminal0>5:result,5:a>1:terminal0,6:probe>5:result,
+.port=80
